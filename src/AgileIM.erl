@@ -10,4 +10,7 @@
 -author("liaozongquan").
 
 %% API
--export([]).
+-export([hello/0]).
+
+hello()  ->
+  ok.
